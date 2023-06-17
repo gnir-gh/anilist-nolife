@@ -1,0 +1,23 @@
+{
+  "name": "anilist-nolife",
+  "version": "0.1.0",
+  "description": "Quality of no life improvement on AniList",
+  "main": "index.js",
+  "author": "gnir",
+  "homepage": "https://github.com/gnir-gh",
+  "scripts": {
+	"build": "NODE_ENV=production npx webpack build",
+    "serve": "NODE_ENV=development npx webpack serve --config webpack.config.dev.js --no-client-overlay",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "lodash-es": "^4.17.21"
+  },
+  "devDependencies": {
+    "webpack": "^5.86.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1",
+    "webpack-userscript": "^3.2.2"
+  }
+}
