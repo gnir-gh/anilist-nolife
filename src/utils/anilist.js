@@ -82,7 +82,6 @@ async function search_media(searchTerm, mediaTypes, adult) {
 		  }
 		}
 	  }`
-	logger.log(query, variables)
 	const responseJson = await api_request(query, variables)
 	return responseJson['data'];
 }
