@@ -13,7 +13,7 @@ The bar is meant to be a tool for quick lookups, not for thorough searches, so t
 
 ## Installation
 1. Make sure you have a userscript manager. I recommend [ViolentMonkey](https://violentmonkey.github.io/), but [Tampermonkey](https://www.tampermonkey.net/) is also popular.
-2. Install the userscript by going to this link: 
+2. Install the userscript from Greasyfork: [https://greasyfork.org/en/scripts/468839-anilist-nolife](https://greasyfork.org/en/scripts/468839-anilist-nolife)
 3. That's it. You can opt out/in of userscript updates if you wish.
 
 ## Build
