@@ -1,4 +1,4 @@
-# anilist-no-life
+# anilist-nolife
 Quality of no-life improvements for AniList
 
 ## Features
