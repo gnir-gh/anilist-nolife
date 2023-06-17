@@ -174,7 +174,10 @@ function main(page) {
 		wait_for_element(scopeSelector, function(scopeElement) {
 			const _mdEditors = document.querySelectorAll('.activity-edit .markdown-editor, .activity-entry .markdown-editor')
 			for(const el of _mdEditors) {
-				inject_search_area(el)
+				const action = el.parentElement.querySelector('.actions')
+				if(action !== null) {
+					inject_search_area(el)
+				}
 			}
 			let observer = new MutationObserver((mutationList, observer) => {
 				for(const m of mutationList) {
